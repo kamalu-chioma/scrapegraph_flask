@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scrapegraph AI Scraper</title>
+    <!-- Add Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5">Web Scraper</h1>
+        <form method="post">
+            <div class="form-group">
+                <label for="url">URL:</label>
+                <input type="text" id="url" name="url" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="data_spec">Data Specification:</label>
+                <textarea id="data_spec" name="data_spec" class="form-control" required rows="5" style="width:100%; max-width:500px;"></textarea>
+            </div>
+            <input type="submit" value="Scrape" class="btn btn-primary">
+        </form>
+    </div>
+</body>
+</html>
